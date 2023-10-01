@@ -23,7 +23,9 @@ function mealcanza(money) {
   // return <h1>{money}</h1>
 }
 
-const elemento =<div>{mealcanza(dinero)}</div>
+const elemento =(<div><h1>Mi dinero es {dinero}</h1>
+                  <div>{mealcanza(dinero)}</div>
+                  </div>);
 // quiero que vayas y obtengas el elemento root 
 const container = document.getElementById('root');
 
